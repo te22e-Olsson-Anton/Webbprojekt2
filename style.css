@@ -1,0 +1,22 @@
+@media screen and (max-width:640px)
+{
+
+    .bild1
+    {
+        padding-left: 5%;
+        padding-right: 7%;
+        padding-top: 5%;
+    }
+    .bild2
+    {
+        width: 0.1916wh;
+    }
+    
+   
+}
+
+
+@media screen and (min-width:641px) and (max-width:1007px)
+{
+
+}
