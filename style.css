@@ -6,6 +6,10 @@ article
     align-items: center;
     
 }
+h2
+{
+    text-align: center;
+}
 
 .article p, h3 {
     margin: 0;
@@ -25,11 +29,12 @@ button
 #cart
 {
     background-color: lightgray;
+    padding: 3%;
 }
-.varukorg
+h3
 {
     text-align: center;
-    padding: 5%;
+    padding: 2%;
 }
 
 @media screen and (max-width:640px)

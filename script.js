@@ -13,7 +13,7 @@ function visa_varukorg() {
     let cartElement = document.getElementById('cart');
     cartElement.innerHTML = '';
     cart.forEach(function(item) {
-        let itemName = document.createElement('p');
+        let itemName = document.createElement('h4');
         itemName.textContent = item.namn;
         let itemPrice = document.createElement('p');
         itemPrice.textContent = item.pris + ' €';
