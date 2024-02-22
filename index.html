@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script defer src="./js/script.js"></script>
+    <script defer src="./script.js"></script>
 </head>
 
 
@@ -29,7 +29,7 @@
 
             <h3>Audi Quattro</h3>
             <p>2,000,000 €</p>
-            <button> KÖP</button>
+            <button onclick="lägg_till_varukorg('Audi Quattro', 2000000)"> KÖP</button>
             
         </article>
 
@@ -38,7 +38,7 @@
             
             <h3>Mclaren MP4/4</h3>
             <p>4,200,000 €</p>
-            <button> KÖP</button>
+            <button onclick="lägg_till_varukorg('Mclaren Mp4/4', 4200000)"> KÖP</button>
 
         </article>
 
@@ -47,7 +47,7 @@
 
             <h3>Lancia 037</h3>
             <p>700,000 €</p>
-            <button> KÖP</button>
+            <button onclick="lägg_till_varukorg('Lancia 037', 700000)"> KÖP</button>
         </article>
 
         <article class="article">
@@ -55,7 +55,7 @@
             
             <h3>Ford GT40</h3>
             <p>5,000,000 €</p>
-            <button> KÖP</button>
+            <button onclick="lägg_till_varukorg('Ford GT40', 5000000)"> KÖP</button>
 
         </article>
 
@@ -64,7 +64,7 @@
 
             <h3>BMW M3 E30</h3>
             <p>79,500 €</p>
-            <button> KÖP</button>
+            <button onclick="lägg_till_varukorg('BMW M3 E30', 79500)"> KÖP</button>
         </article>
 
         <article class="article">
@@ -72,9 +72,20 @@
 
             <h3>Ferrari F2003</h3>
             <p>15,000,000 €</p>
-            <button> KÖP</button>
+            <button onclick="lägg_till_varukorg('Ferrari F2003', 15000000)"> KÖP</button>
         </article>
 
+        
+        <div class="varukorg">
+
+            <h3>VARUKORG</h3>
+            
+            <div id="cart">
+            
+
+            
+            </div>
+        </div>  
     </main>
     
 
