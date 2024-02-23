@@ -36,6 +36,18 @@ h3
     text-align: center;
     padding: 2%;
 }
+footer
+{
+    background-color: lightgray;
+    margin-top: 5%;
+    display: flex;
+    gap: 25%;
+    
+}
+.logga
+{
+    max-width: 25%;
+}
 
 @media screen and (max-width:640px)
 {
@@ -54,7 +66,29 @@ h3
  
 }
 
-@media screen and (min-width:641px) and (max-width:1007px)
-{
 
+    @media screen and (min-width:641px) and (max-width:1024px)
+{
+    .produkter
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr ; 
+        grid-template-rows: 1fr 1fr 1fr 
+        
+    }   
+
+    .bild
+    {
+        width: 50%;
+        
+    }
+    .bild1
+    {
+        width: 100%;
+    }
+    .bildGT40
+    {
+        width: 85%;
+    }
 }
+
