@@ -1,104 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script defer src="./script.js"></script>
-</head>
+  </head>
 
-
-
-<body>
-
-    
+  <body>
     <div>
-
-        <img class="bild1" src="Audi-WRC-Car12.webp" alt="">
-        
-
+      <img class="bild1" src="Audi-WRC-Car12.webp" alt="" />
     </div>
 
     <main>
-
-        <h2>PRODUKTER</h2>
-        <div class="produkter">
+      <h2>PRODUKTER</h2>
+      <div class="produkter">
         <article class="article">
-            <img class="bild" src="SmeshBilet.webp" alt="">
+          <img class="bild" src="SmeshBilet.webp" alt="" />
 
-            <h3>Audi Quattro</h3>
-            <p>2,000,000 €</p>
-            <button onclick="lägg_till_varukorg('Audi Quattro', 2000000)"> KÖP</button>
-            
+          <h3>Audi Quattro</h3>
+          <p>2,000,000 €</p>
+          <button onclick="lägg_till_varukorg('Audi Quattro', 2000000)">
+            KÖP
+          </button>
         </article>
 
         <article class="article">
-           <img class="bild" src="mclarenmp44.webp" alt="">
-            
-            <h3>Mclaren MP4/4</h3>
-            <p>4,200,000 €</p>
-            <button onclick="lägg_till_varukorg('Mclaren Mp4/4', 4200000)"> KÖP</button>
+          <img class="bild" src="mclarenmp44.webp" alt="" />
 
+          <h3>Mclaren MP4/4</h3>
+          <p>4,200,000 €</p>
+          <button onclick="lägg_till_varukorg('Mclaren Mp4/4', 4200000)">
+            KÖP
+          </button>
         </article>
 
         <article class="article">
-            <img class="bild" src="image.webp" alt="">
+          <img class="bild" src="image.webp" alt="" />
 
-            <h3>Lancia 037</h3>
-            <p>700,000 €</p>
-            <button onclick="lägg_till_varukorg('Lancia 037', 700000)"> KÖP</button>
+          <h3>Lancia 037</h3>
+          <p>700,000 €</p>
+          <button onclick="lägg_till_varukorg('Lancia 037', 700000)">
+            KÖP
+          </button>
         </article>
 
         <article class="article">
-            <img class="bildGT40" src="1969-Superformance-Ford-GT40-MKI-Tool-Room-Replica-73.webp" alt="">
-            
-            <h3>Ford GT40</h3>
-            <p>5,000,000 €</p>
-            <button onclick="lägg_till_varukorg('Ford GT40', 5000000)"> KÖP</button>
+          <img
+            class="bild"
+            src="1969-Superformance-Ford-GT40-MKI-Tool-Room-Replica-73.webp"
+            alt=""
+          />
 
+          <h3>Ford GT40</h3>
+          <p>5,000,000 €</p>
+          <button onclick="lägg_till_varukorg('Ford GT40', 5000000)">
+            KÖP
+          </button>
         </article>
 
         <article class="article">
-            <img class="bild" src="bmwe30.webp" alt="">
+          <img class="bild" src="bmwe30.webp" alt="" />
 
-            <h3>BMW M3 E30</h3>
-            <p>79,500 €</p>
-            <button onclick="lägg_till_varukorg('BMW M3 E30', 79500)"> KÖP</button>
+          <h3>BMW M3 E30</h3>
+          <p>79,500 €</p>
+          <button onclick="lägg_till_varukorg('BMW M3 E30', 79500)">KÖP</button>
         </article>
 
         <article class="article">
-            <img class="bild" src="ferrariMCS.webp" alt="">
+          <img class="bild" src="ferrariMCS.webp" alt="" />
 
-            <h3>Ferrari F2003</h3>
-            <p>15,000,000 €</p>
-            <button onclick="lägg_till_varukorg('Ferrari F2003', 15000000)"> KÖP</button>
+          <h3>Ferrari F2003</h3>
+          <p>15,000,000 €</p>
+          <button onclick="lägg_till_varukorg('Ferrari F2003', 15000000)">
+            KÖP
+          </button>
         </article>
-         </div>
-        
-        <div class="varukorg">
+      </div>
 
-            <h3>VARUKORG</h3>
-            
-            <div id="cart">
-            
+      <div class="varukorg">
+        <h3>VARUKORG</h3>
 
-            
-            </div>
-        </div>  
+        <button>BETALA</button>
+
+        <button onclick="rensa()">Rensa</button>
+
+        <div id="cart"></div>
+
+        <div id="total"></div>
+      </div>
     </main>
 
     <footer>
+      <img class="logga" src="logga.webp" alt="" />
 
-        <img class="logga" src="logga.webp" alt="">
-        
-        <p>kontakta oss</p>
-
+      <p>kontakta oss</p>
     </footer>
-    
-
-</body>
-
-
-
+  </body>
 </html>

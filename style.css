@@ -48,7 +48,14 @@ footer
 {
     max-width: 25%;
 }
-
+button
+{
+    font-size: 2em;
+}
+#total
+{
+    font-size: 2.5em;
+}
 @media screen and (max-width:640px)
 {
 
@@ -86,9 +93,25 @@ footer
     {
         width: 100%;
     }
-    .bildGT40
+    h2 
     {
-        width: 85%;
+        font-size: 2em;
     }
+    h3{
+        font-size: 2.5em; 
+    }
+    h4 
+    {
+        font-size: 2em;
+    }
+    p
+    {
+        font-size: 2.5em;
+    }
+    
 }
 
+@media screen and (min-width:1025px)
+{
+    
+}
