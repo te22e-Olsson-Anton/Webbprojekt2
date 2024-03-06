@@ -113,5 +113,40 @@ button
 
 @media screen and (min-width:1025px)
 {
-    
+    @media screen and (min-width:1025px) {
+        .produkter {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr); 
+          grid-template-rows: auto; 
+          gap: 20px; 
+          justify-items: center; 
+        }
+      
+        .bild{
+          width: 100%; 
+          max-width: 100%; 
+      
+        h2 {
+          font-size: 2em; 
+        }
+      
+        h3 {
+          font-size: 2.5em; 
+        }
+      
+        p {
+          font-size: 2em; 
+        }
+      
+        .article {
+          max-width: 300px; 
+        }
+
+        .bild1
+        {
+            width: 100%;
+        }
+      }
+      
+}
 }
